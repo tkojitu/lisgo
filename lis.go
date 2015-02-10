@@ -202,7 +202,6 @@ func eval(x interface{}, env *Env) interface{} {
     if proc, ok := car.(*Procedure); ok {
 	return proc.Call(args)
     }
-    fmt.Printf("-- %s\n", car) //////
     return nil
 }
 
