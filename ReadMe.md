@@ -1,5 +1,5 @@
 lis.go
 ------
 
-lis.py (http://norvig.com/lispy.html) in Go.
+Lispy (http://norvig.com/lispy.html) in Go.
 
