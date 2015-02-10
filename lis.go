@@ -1,3 +1,5 @@
+// See original Lispy at http://norvig.com/lispy.html
+
 package main
 
 import (
