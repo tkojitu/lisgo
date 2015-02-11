@@ -237,7 +237,7 @@ func isPrim(x interface{}) (func([]interface{})interface{}, bool) {
 
 // A prompt-read-eval-print loop.
 func repl() {
-    prompt := "lis.py> "
+    prompt := "lis.go> "
     in := bufio.NewReader(os.Stdin)
     for {
 	fmt.Printf("%s", prompt)

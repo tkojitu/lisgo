@@ -158,7 +158,7 @@ func isFalse(x interface{}) (bool, bool) {
 
 // A prompt-read-eval-print loop.
 func repl() {
-    prompt := "lis.py> "
+    prompt := "lis.go> "
     in := bufio.NewReader(os.Stdin)
     for {
 	fmt.Printf("%s", prompt)
